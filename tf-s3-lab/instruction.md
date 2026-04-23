@@ -4,10 +4,8 @@ Welcome to the Terraform S3 lab! In this guide, you will learn how to automate t
 
 ---
 
-## 🏗️ Step 1: Creating S3
-The objective of this lab is to use Terraform to create a secure, versioned S3 bucket on AWS. You will learn how to automate storage infrastructure and implement best practices like encryption and versioning.
+## 🏗️ Step 1: Create an EC2 machine first.
 
----
 
 ## 🔐 Step 2: IAM User Setup (One-Time)
 Terraform needs permissions to manage S3 buckets.
@@ -46,7 +44,7 @@ aws --version
 
 ---
 
-## ⚙️ Step 4: Configure Local Credentials
+## ⚙️ Step 4: Configure AWS Credentials
 Connect your machine to AWS:
 
 ```bash

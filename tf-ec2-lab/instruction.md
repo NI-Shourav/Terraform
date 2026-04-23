@@ -4,10 +4,7 @@ Welcome to the Terraform EC2 lab! In this guide, you will learn how to automate 
 
 ---
 
-## 🏗️ Step 1: Creating EC2
-The goal of this lab is to use Terraform to provision a virtual server (EC2 instance) in the AWS Cloud. We will set up the environment, configure security, and deploy the infrastructure using code.
-
----
+## 🏗️ Step 1: Create an EC2 machine first.
 
 ## 🔐 Step 2: IAM User Setup (One-Time)
 You need an IAM user so Terraform can authenticate with AWS.
@@ -47,16 +44,14 @@ aws --version
 ---
 
 ## ⚙️ Step 4: Configure AWS Credentials
-Run the following command to link your local machine to your AWS account:
+Connect your machine to AWS:
 
 ```bash
 aws configure
 ```
-**You will be prompted for:**
-*   AWS Access Key ID
-*   AWS Secret Access Key
-*   Default region name (e.g., `us-west-2`)
-*   Default output format (e.g., `json`)
+*   **Access Key ID**: `YOUR_ACCESS_KEY`
+*   **Secret Access Key**: `YOUR_SECRET_KEY`
+*   **Region**: `us-west-2` (or your preferred region)
 
 ---
 
