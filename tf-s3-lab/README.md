@@ -1,4 +1,4 @@
-# 📖 Understanding the S3 Lab Infrastructure
+# 📖 Understanding the S3 Lab Infrastructure (Separation of Concerns)
 
 This guide explains how the different Terraform files in this directory work together to create and secure an S3 bucket.
 

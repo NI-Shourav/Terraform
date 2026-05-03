@@ -1,4 +1,4 @@
-# 🪣 Hands-on Lab: Provisioning AWS S3 with Terraform
+# 🪣 Hands-on Lab: Provisioning AWS S3 with Terraform (Separation of Concerns)
 
 Welcome to the Terraform S3 lab! In this guide, you will learn how to automate the creation of an S3 bucket on AWS and manage its configurations using code.
 
@@ -70,6 +70,13 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashi
 # Update & Install
 sudo apt update && sudo apt install terraform
 ```
+
+> [!NOTE]
+> **About `UBUNTU_CODENAME`:**
+> The `$(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs)` section in the command above dynamically fetches your operating system's codename (e.g., `noble` for Ubuntu 24.04, `jammy` for Ubuntu 22.04, `focal` for Ubuntu 20.04, or `bullseye` for Debian 11). This codename must be placed exactly before `main` for the repository to work.
+> 
+> **How to find your codename:**
+> You can manually find your OS codename by running `lsb_release -cs` or `cat /etc/os-release` in your terminal. If the automated command fails to auto-detect your version, you can manually replace that entire section with your actual OS codename (for example, `noble`).
 
 ---
 

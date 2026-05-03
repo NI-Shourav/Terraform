@@ -1,4 +1,4 @@
-# 📖 Understanding the EC2 Lab Infrastructure
+# 📖 Understanding the EC2 Lab Infrastructure (Separation of Concerns)
 
 This guide explains how the different Terraform files in this directory work together to build your EC2 instance.
 
